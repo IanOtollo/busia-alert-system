@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Report an Emergency - Busia County</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.php">Home</a>
+    <a href="alerts.php">View Alerts</a>
+    <a href="admin.html">Post Alert</a>
+    <a href="contact.html">SOS / Contact</a>
+  </nav>
+
+  <header>
+    <div class="branding">
+      <img src="logo.png" alt="Busia County Logo" class="logo">
+      <h1>Emergency SOS – Busia County</h1>
+    </div>
+  </header>
+
+  <section class="form-section">
+    <h2>Submit an Emergency Alert</h2>
+    <form action="sos.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="text" name="phone" placeholder="Phone (07XXXXXXXX)" required>
+      <select name="ward" required>
+        <option value="">-- Select Ward --</option>
+        <option value="Butula">Butula</option>
+        <option value="Matayos">Matayos</option>
+        <option value="Nambale">Nambale</option>
+        <option value="Funyula">Funyula</option>
+      </select>
+      <textarea name="emergency" rows="4" placeholder="Describe the emergency..." required></textarea>
+      <button type="submit">Send SOS</button>
+    </form>
+  </section>
+</body>
+</html>
