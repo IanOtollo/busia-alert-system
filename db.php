@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$dbname = "busia_alerts"; // Make sure this database exists
+$dbname = "busia_alerts"; 
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
