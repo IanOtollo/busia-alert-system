@@ -19,6 +19,7 @@ $totalSubscribers = $row['total'];
   <a href="alerts.php">View Alerts</a>
   <a href="admin.html">Post Alert</a>
   <a href="contact.html">SOS / Contact</a>
+  <a href="map.php">🗺 View Alert Map</a>
 </nav>
 
 <?php
