@@ -8,7 +8,7 @@ $lat = !empty($_POST['lat']) ? $_POST['lat'] : null;
 $lng = !empty($_POST['lng']) ? $_POST['lng'] : null;
 
 $admin_key = $_POST['admin_key'];
-$allowed_key = "BSA040"; 
+$allowed_key = "BSA040";  
 
 if ($admin_key !== $allowed_key) {
   die("❌ Unauthorized: Incorrect admin key.");
