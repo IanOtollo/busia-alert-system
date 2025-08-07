@@ -10,14 +10,14 @@ header {
   background-color: #004080;
   color: white;
   padding: 20px;
-  text-align: center;
+  text-align: left; /* left-align the header */
   border-radius: 8px 8px 0 0;
 }
 
 .branding {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start; /* logo + text aligned left */
   gap: 15px;
   flex-wrap: wrap;
 }
@@ -29,7 +29,7 @@ header {
 header h1 {
   font-size: 1.8em;
   margin: 0;
-  color: white; 
+  color: white;
 }
 
 nav {
@@ -91,11 +91,13 @@ button:hover {
   margin: 10px;
   text-align: center;
 }
+
 .back-home a {
   color: #004080;
   font-weight: bold;
   text-decoration: none;
 }
+
 .back-home a:hover {
   text-decoration: underline;
 }

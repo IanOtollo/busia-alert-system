@@ -33,10 +33,11 @@ $tickerResult = $conn->query("SELECT type, location, message FROM alerts ORDER B
   </marquee>
 </div>
 
-
 <header>
   <div class="branding">
-    <img src="logo.png" alt="Busia County Logo" class="logo">
+    <a href="https://busia.go.ke" target="_blank">
+      <img src="logo.png" alt="Busia County Government Logo" class="logo">
+    </a>
     <h1>Busia County Disaster Alert System</h1>
   </div>
 </header>
