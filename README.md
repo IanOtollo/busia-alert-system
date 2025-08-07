@@ -4,7 +4,7 @@ A disaster alert and early warning platform for Busia County, Kenya. Developed u
 
 ## Features
 - Admin login
-- Alert posting with geo-coordinates
+- Alert posting    
 - Ward-based alert filtering
 - SMS notification support
 - Contact/SOS form
@@ -12,7 +12,6 @@ A disaster alert and early warning platform for Busia County, Kenya. Developed u
 ## Tech Stack
 - PHP + MySQL (Backend)
 - HTML/CSS (Frontend)
-- Leaflet.js for maps
 - SMS API for real-time alerts
 
 
